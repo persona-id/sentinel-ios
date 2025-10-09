@@ -14,7 +14,7 @@ let package = Package(
     .binaryTarget(
       name: "PersonaSentinel",
       url: "https://github.com/persona-id/sentinel-ios/releases/download/2.30.4/PersonaSentinel.xcframework.zip",
-      checksum: "0e7117368fc4109bb5b429d1631b04fc47a276094a322c064716dc19bb0f6d98"
+      checksum: "771052a4c4889051a4adda0a97ed0047e580445cbf2afbdf99ca82462da26dfe"
     )
   ]
 )
