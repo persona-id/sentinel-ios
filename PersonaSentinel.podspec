@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.platform     = 'ios'
   s.ios.deployment_target = '13.0'
 
-  s.source       = { :http => 'https://github.com/persona-id/sentinel-ios/releases/download/2.38.0/PersonaSentinel.zip' }
+  s.source       = { :http => 'https://github.com/persona-id/sentinel-ios/releases/download/2.38.0-xcode-16.1/PersonaSentinel.zip' }
   s.vendored_frameworks = 'PersonaSentinel.xcframework'
 
   # 1.7 is needed for `swift_versions` support
