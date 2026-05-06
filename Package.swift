@@ -1,4 +1,4 @@
-// swift-tools-version:5.3
+// swift-tools-version: 5.9
 import PackageDescription
 
 let package = Package(
@@ -13,8 +13,8 @@ let package = Package(
   targets: [
     .binaryTarget(
       name: "PersonaSentinel",
-      url: "https://github.com/persona-id/sentinel-ios/releases/download/2.46.0/PersonaSentinel.xcframework.zip",
-      checksum: "e6e2389715a4fa582c0bc85ba68ac9ce6890c55bc5259b4965713b9d50bfb965"
+      url: "https://github.com/persona-id/sentinel-ios/releases/download/2.47.0-RC/PersonaSentinel.xcframework.zip",
+      checksum: "b0fe382fd6659685ca44cb07bbfba2c515765c2190dffbb57435451adb1278a1"
     )
   ]
 )
