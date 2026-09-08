@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'PersonaSentinel'
-  s.version      = '3.8.0-beta.2'
+  s.version      = '3.8.0-beta.3'
   s.summary      = 'Persona Sentinel SDK'
   s.homepage     = 'https://github.com/persona-id/sentinel-ios'
   s.author       = 'Persona Identities, Inc.'
@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.platform     = 'ios'
   s.ios.deployment_target = '15.0'
 
-  s.source       = { :http => 'https://storage.googleapis.com/sdk.withpersona.com/ios/v2/releases/3.8.0-beta.2/PersonaSentinel.zip' }
+  s.source       = { :http => 'https://storage.googleapis.com/sdk.withpersona.com/ios/v2/releases/3.8.0-beta.3/PersonaSentinel.zip' }
   s.vendored_frameworks = 'PersonaSentinel.xcframework'
 
   # 1.7 is needed for `swift_versions` support
