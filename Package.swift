@@ -3,7 +3,7 @@ import PackageDescription
 
 let package = Package(
   name: "PersonaSentinel",
-  platforms: [.iOS("15.0")],
+  platforms: [.iOS(.v13)],
   products: [
     .library(
       name: "PersonaSentinel",
@@ -13,8 +13,8 @@ let package = Package(
   targets: [
     .binaryTarget(
       name: "PersonaSentinel",
-      url: "https://github.com/persona-id/sentinel-ios/releases/download/4.0.1/PersonaSentinel.xcframework.zip",
-      checksum: "e9a20085e7b51606b37ff4aa413a48bc46a45e023bc8387bb764ba486252d49b"
+      url: "https://github.com/persona-id/sentinel-ios/releases/download/2.56.0-RC/PersonaSentinel.xcframework.zip",
+      checksum: "84034897824b1f4856e4ec8225fce13c7adf9a824df917b80b6376f52c71470c"
     )
   ]
 )
